@@ -1,0 +1,187 @@
+[
+    {
+        "question": "What is the output?",
+        "description": "alert(typeof(NaN));",
+        "choices": ["number", "object", "string", "function"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "You can’t delete variables declared with var keyword by 'delete' operator.",
+        "choices": ["true", "false"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "alert(typeof([1, 2]) != (typeof {obg:23}));",
+        "choices": ["false", "true"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "JS numbers are always stored as double precision floating point numbers.",
+        "choices": ["true", "false"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "alert(0.1 + 0.2 == 0.3);",
+        "choices": ["false", "true"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What function is used to merge arrays?",
+        "choices": ["concat()", "merge()", "array_merge()", "add()"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "function mlt(a, b) {\n  if(!(a && b)) {\n    return 0;\n  } else if(b == 1) {\n    return a;\n  } else {\n    return (a + mlt(a, b - 1));\n  }\n}\nconsole.log(mlt(3, 11));\nconsole.log(mlt(7, 1));",
+        "type": "input",
+        "correctAnswer": "337"
+    },
+    {
+        "question": "What is the output?",
+        "description": "(function(){\n  alert(typeof arguments);\n})();",
+        "choices": ["object", "function", "undefined", "null"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "Choose the numbers that are present in the output.",
+        "description": "for(let i = 0; i < 100; i ++)\n  if(i % 10 == i - 10)\n    document.write(i + ',');",
+        "choices": ["14", "17", "27", "9"],
+        "type": "checkbox",
+        "correctAnswer": [0, 1]
+    },
+    {
+        "question": "What is the output?",
+        "description": "var a = 5 && 8;\nvar b = 5 || 8;\nconsole.log(a + b);",
+        "type": "input",
+        "correctAnswer": "13"
+    },
+    {
+        "question": "What is the output?",
+        "description": "console.log((true+false)>2+true);",
+        "choices": ["false", "true", "error"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "const mul = x => y => x * y;\nconst res = mul(2)(5);\nconsole.log(res);",
+        "type": "input",
+        "correctAnswer": "10"
+    },
+    {
+        "question": "Is this code valid?",
+        "description": "a = 5;\nalert(a);",
+        "choices": ["yes", "no"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "console.log((![]+[])[1]);",
+        "type": "input",
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the output?",
+        "description": "console.log(parseInt('1001', 2));",
+        "type": "input",
+        "correctAnswer": "9"
+    },
+    {
+        "question": "This code generates an error.",
+        "description": "'use strict';\nv = 21;",
+        "choices": ["yes", "no"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "const createPerson = name => ({name});\nconsole.log(createPerson('John'));",
+        "choices": ["{name: \"John\"}", "undefined", "name", "John"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "const createPerson = name => {name};\nconsole.log(createPerson('John'));",
+        "choices": ["undefined", "{name: \"John\"}", "name", "John"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the difference between 'var' and 'let'?",
+        "choices": ["'var' declares a function-scoped variable.", "'let' declares a block-scoped variable.", "'let' declares a function-scoped variable.", "'var' declares a block-scoped variable."],
+        "type": "checkbox",
+        "correctAnswer": [0, 1]
+    },
+    {
+        "question": "What is the difference between 'innerHTML' and 'textContent' properties of the Node interface?",
+        "choices": ["'textContent' can prevent XSS attacks.", "'innerHTML' parses content as HTML.", "'textContent' uses straight text, does not parse HTML.", "'textContent' is faster", "'innerHTML' is faster", "'innerHTML' can prevent XSS attacks."],
+        "type": "checkbox",
+        "correctAnswer": [0, 1, 2, 3]
+    },
+    {
+        "question": "Is this a preferable way to call independent async functions?",
+        "description": "await Promise.all([\n  Shop.loadItems(),\n  UserProfile.loadData(),\n]);",
+        "choices": ["yes", "no"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output if p1 returns 3 and p2 returns 'foo'?",
+        "description": "Promise.all([p1, p2]).then(result => {\n  console.log(result);\n});",
+        "choices": ["[3, \"foo\"]", 3, "foo", "undefined", "The code outputs the first returned value."],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "How can we append 5 to an array called 'arr'?",
+        "description": "Choose all that apply",
+        "choices": ["arr.push(5)", "arr[arr.length] = 5", "arr.splice(5)", "arr.insert(5)"],
+        "type": "checkbox",
+        "correctAnswer": [0, 1]
+    },
+    {
+        "question": "What are the ways that we can get an element with id 'div'?",
+        "description": "Choose all that apply",
+        "choices": ["document.getElementById('div')", "document.querySelector('#div')", "document.getElementById('#div')", "document.select('#div')"],
+        "type": "checkbox",
+        "correctAnswer": [0, 1]
+    },
+    {
+        "question": "What is the output?",
+        "description": "let arr = [1,2,3,4,5,6];\narr.filter(x => x % 2 == 0).join('');",
+        "type": "input",
+        "correctAnswer": "246"
+    },
+    {
+        "question": "What is the output?",
+        "description": "console.log(0b10 + 0b11)",
+        "choices": ["8", "0b100b11", "Error", "0b1000"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the output?",
+        "description": "console.log(typeof NaN)",
+        "choices": ["number", "null", "object"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "Fill in the blanks to output 2.",
+        "description": "function* generate() {\n  <in> 2;\n}\nlet generator = generate();\nlet result = generator.<in>();\nconsole.log(result.value)",
+        "type": "multi-input",
+        "correctAnswer": ["yield", "next"],
+        "madeBy": "Igor Makarsky"
+    }
+]

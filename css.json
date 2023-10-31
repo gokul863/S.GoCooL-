@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Fill in the blanks to put the content of a div in the center of the screen.",
+        "description": "div {\n  display: <in>;\n  <in>-content: center;\n  align-items: <in>;\n  height: 100vh;\n  width: 100vw;\n}",
+        "type": "multi-input",
+        "correctAnswer": ["flex", "justify", "center"],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Fill in the blanks to make text content red and underlined for all div elements with 'underlined' set within its class attribute.",
+        "description": "<in> {\n  <in>: red;\n  text-<in>: underline;\n}",
+        "type": "multi-input",
+        "correctAnswer": ["div.underlined", "color", "decoration"],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Which selector does select all <span> elements that are placed immediately after <input> elements?",
+        "type": "radio",
+        "choices": ["input > span", "input + span", "input, span", "input span"],
+        "correctAnswer": 1,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Fill in the blanks to make the bottom border invisible of the last element with the class \"block\".",
+        "description": ".block {\n  border-bottom: 2px solid red;\n}\n.block:last-of-<in> {\n  border-bottom-color: <in>;\n}",
+        "type": "multi-input",
+        "correctAnswer": ["type", "transparent"],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "An element with the class \"text\" will have changed its text color during runtime. Fill in the blanks to make this change smooth with duration of 1 second.",
+        "description": ".text {\n  color: green;\n  <in>: color <in>;\n}",
+        "type": "multi-input",
+        "correctAnswer": ["transition", "1s"],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Fill in the blanks to stick the element with a class \"bottom\" to the bottom of the page.",
+        "description": ".bottom {\n  <in>: <in>;\n  bottom: 0;\n}",
+        "type": "multi-input",
+        "correctAnswer": ["position", "fixed"],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "The following margin properties are interchangeable.",
+        "description": "1. margin: 10px 15px;\n2. margin: 10px 15px 10px 15px;\n3. margin: 10px 15px 10px;",
+        "type": "radio",
+        "choices": ["true", "false"],
+        "correctAnswer": 0,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Complete the following CSS rule to center selected elements on a page horizontally.",
+        "description": ".center {\n  width: 70%;\n  margin: 0 <in>;\n}",
+        "type": "multi-input",
+        "correctAnswer": ["auto"],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Negative margins can be used to overlap elements without absolute positioning.",
+        "description": ".overlap {\n  margin-left: -30px;\n}",
+        "type": "radio",
+        "choices": ["true", "false"],
+        "correctAnswer": 0,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "The following padding properties are interchangeable.",
+        "description": "1. padding: 20px 5px;\n2. padding: 20px 5px 20px 5px;\n3. padding: 20px 5px 20px;",
+        "type": "radio",
+        "choices": ["true", "false"],
+        "correctAnswer": 0,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "What is the result of the following CSS rule?",
+        "description": ".shape {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n}",
+        "type": "radio",
+        "choices": ["A circle", "A square", "A triangle", "This rule is invalid"],
+        "correctAnswer": 0,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "The following CSS rule is valid.",
+        "description": ".element {\n  position: relative;\n  border: 5px dash green;\n  width: 100px;\n  height: 100px;\n  margin: 20px;\n}",
+        "type": "radio",
+        "choices": ["true", "false"],
+        "correctAnswer": 1,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "The following properties are equivalent.",
+        "description": "1. border: 2px solid #000;\n\n2. border-width: 2px;\n    border-styling: solid;\n    border-color: #000;",
+        "type": "radio",
+        "choices": ["true", "false"],
+        "correctAnswer": 1,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Complete the rule to hide scroll bars.",
+        "description": "body {\n  <in>: <in>;\n}",
+        "type": "multi-input",
+        "correctAnswer": ["overflow", "hidden"],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Select screen widths to which the following rule will be applied.",
+        "description": "@media screen and (max-width: 640px) {\n  .element {\n    background-color: green;\n  }\n}",
+        "type": "checkbox",
+        "choices": ["640px", "639px", "320px", "641px", "1280px"],
+        "correctAnswer": [0, 1, 2],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Which property specifies the spacing behavior between tags and words?",
+        "type": "radio",
+        "choices": ["text-spacing", "word-spacing", "tag-spacing", "alpha-spacing"],
+        "correctAnswer": 1,
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Which CSS selector has the highest priority if they all match the same element?",
+        "choices": [".element", "input#name[type=\"text\"]", "#name.element", "input#name"],
+        "type": "radio",
+        "correctAnswer": 1
+    },
+    {
+        "question": "The following rules match the same element. Which background color will the element have?",
+        "description": ".element {background-color: green;}\n#el {background-color: #00F;}\ndiv#el {background-color: #f00;}\n#el.element {background-color: yellow;}",
+        "choices": ["yellow", "green", "#00F", "#f00"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which declaration is used to override the usual specificity in a stylesheet by giving a higher priority to a rule?",
+        "choices": ["!important", "important", "override", "!override"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "Select valid pseudo-elements.",
+        "type": "checkbox",
+        "choices": ["::after", "::before", "::first-line", "::selection", "::first-word"],
+        "correctAnswer": [0, 1, 2, 3],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "Select valid display property values.",
+        "type": "checkbox",
+        "choices": ["none", "table-cell", "list-item", "inline-flex", "radio-item"],
+        "correctAnswer": [0, 1, 2, 3],
+        "madeBy": "Igor Makarsky"
+    },
+    {
+        "question": "The following declarations will result in the same output.",
+        "description": ".transform1 {\n  transform: rotate(5deg) translateX(200px);\n}\n.transform2 {\n  transform: translateX(200px) rotate(5deg);\n}",
+        "type": "radio",
+        "choices": ["true", "false"],
+        "correctAnswer": 1,
+        "madeBy": "Igor Makarsky"
+    }
+]
